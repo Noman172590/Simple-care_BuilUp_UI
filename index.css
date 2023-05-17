@@ -1,0 +1,13 @@
+.h1{
+    text-align: center;
+    color:tomato;
+    text-shadow: 1px 1px #FF0000;
+}
+@media screen and (max-width: 576px) {
+    .h1{
+        text-align: center;
+        color:tomato;
+        text-shadow: 1px 1px #FF0000;
+        
+    }
+  }
