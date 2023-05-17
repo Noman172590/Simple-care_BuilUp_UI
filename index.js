@@ -35,7 +35,7 @@ const data = [
 
   const Honda_sedan=document.getElementById('Honda_sedan')
   const Mitosedan=document.getElementById('Mitosedan')
-  console.log(data)
+  console.log(data[0].price)
 
   const div=document.createElement('div')
   div.classList.add('col')
@@ -47,6 +47,7 @@ const data = [
     <h5 class="card-title">Car Name:${data[0].name}</h5>
     <p class="card-text">car detail:${data[0].description
     }</p>
+    <button type="button" class="btn btn-primary p-3">Care Price: ${data[0].price}</button>
   </div>
 
 
@@ -64,6 +65,7 @@ const data = [
     <h5 class="card-title">Car Name:${data[1].name}</h5>
     <p class="card-text">car detail:${data[1].description
     }</p>
+    <button type="button" class="btn btn-primary  p-3">Care Price: ${data[1].price}</button>
   </div>
   
   
